@@ -1,1 +1,4 @@
-Nothing in here yet.
+Luarning is my approach to learning programming with lua a bit better (I'm at novice level right now). The project has the following structure:
+
+BASIC/
+--hello.lua (Hello world example - to run it on your machine type "lua hello.lua")
