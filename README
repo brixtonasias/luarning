@@ -2,3 +2,6 @@ Luarning is my approach to learning programming with lua a bit better (I'm at no
 
 BASIC/
 --hello.lua (Hello world example - to run it on your machine type "lua hello.lua")
+
+HTTP/
+--twitter.lua (A simple http example using LuaSocket together with the Twitter API - to run it on your machine type "lua twitter.lua")
