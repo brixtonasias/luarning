@@ -1,4 +1,7 @@
+
 require("luarocks.require")
+require("remdebug.engine")
+remdebug.engine.start()
 -- load the http module
 local io = require("io")
 local http = require("socket.http")
@@ -10,6 +13,7 @@ print("Enter password: ")
 password = io.read()
 
 authentication = username .. ":" .. password
+
 -- use rss / json / xml
 myurl = "http://" .. authentication ..  "@api.twitter.com/1/statuses/friends_timeline.xml"
 
